@@ -177,6 +177,14 @@ dialog#lb p{margin:10px 0 0;font-weight:500}
 .menu a:not(:last-child):active,.menu a:not(:last-child):hover{color:var(--red)}
 @keyframes pop{from{opacity:0;transform:scale(.92) translateY(-6px)}to{opacity:1;transform:none}}
 @media(max-width:720px){nav .links{display:none}.menu-btn{display:flex}}
+@media(min-width:721px){nav .links{background:var(--paper);padding:6px 8px 6px 22px;border-radius:999px;box-shadow:4px 4px 0 #151012;gap:20px}nav .links a{color:var(--ink)}nav .links a.call{background:var(--red);color:#fff}}
+@media(max-width:860px){
+  .hero::before{display:none}
+  .stage-box{background:var(--paper);margin:34px -24px -56px;padding:56px 24px 56px;clip-path:polygon(0 30px,100% 0,100% 100%,0 100%)}
+}
+@media(max-width:600px){.stage-box{margin-left:-18px;margin-right:-18px;padding-left:18px;padding-right:18px}}
+.cutband{position:relative;z-index:1;margin:-30px 0}
+.contact{margin-top:-36px}
 </style>
 </head>
 <body>
